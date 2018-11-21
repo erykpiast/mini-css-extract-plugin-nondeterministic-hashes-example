@@ -1,0 +1,24 @@
+{
+  "name": "mini-css-extract-plugin-nondeterministic-hashes-example",
+  "version": "1.0.0",
+  "description": "Minimum reproducible example of #308 issue in mini-css-extract-plugin (https://github.com/webpack-contrib/mini-css-extract-plugin/issues/308)",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "exit 0;"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/erykpiast/mini-css-extract-plugin-nondeterministic-hashes-example.git"
+  },
+  "keywords": [
+    "mini-css-extract-plugin",
+    "bug",
+    "example"
+  ],
+  "author": "Eryk Napierała <eryk.piast@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/erykpiast/mini-css-extract-plugin-nondeterministic-hashes-example/issues"
+  },
+  "homepage": "https://github.com/erykpiast/mini-css-extract-plugin-nondeterministic-hashes-example#readme"
+}
