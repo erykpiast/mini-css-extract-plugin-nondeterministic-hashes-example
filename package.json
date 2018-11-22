@@ -4,7 +4,9 @@
   "description": "Minimum reproducible example of #308 issue in mini-css-extract-plugin (https://github.com/webpack-contrib/mini-css-extract-plugin/issues/308)",
   "main": "dist/index.js",
   "scripts": {
-    "test": "exit 0;"
+    "test": "./test.sh",
+    "build": "webpack",
+    "clean": "rm -r dir? dist"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,11 @@
   "bugs": {
     "url": "https://github.com/erykpiast/mini-css-extract-plugin-nondeterministic-hashes-example/issues"
   },
-  "homepage": "https://github.com/erykpiast/mini-css-extract-plugin-nondeterministic-hashes-example#readme"
+  "homepage": "https://github.com/erykpiast/mini-css-extract-plugin-nondeterministic-hashes-example#readme",
+  "devDependencies": {
+    "css-loader": "^1.0.1",
+    "mini-css-extract-plugin": "^0.4.5",
+    "webpack": "^4.26.0",
+    "webpack-cli": "^3.1.2"
+  }
 }
